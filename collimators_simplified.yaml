@@ -1,0 +1,46 @@
+%YAML 1.2
+---
+All:
+  - &ALL     { parking: 0.025 }
+
+families:
+  # Momentum cleaning
+  - &TCP3    { <<: *ALL,  gap: 15,    stage: primary,    material: C,     length: 0.6    }
+  - &TCSG3   { <<: *ALL,  gap: 18,    stage: secondary,  material: C,     length: 1      }
+  # Betatron cleaning
+  - &TCP7    { <<: *ALL,  gap: 5,     stage: primary,    material: C,     length: 0.6    }
+  - &TCSG7   { <<: *ALL,  gap: 6.5,   stage: secondary,  material: C,     length: 1      }
+  # Triplet protection
+  - &TCT15   { <<: *ALL,  gap: 8.5,   stage: tertiary,   material: Iner,  length: 1,     parking: 0.020 }
+
+emittance:
+  x: 3.5e-6
+  y: 3.5e-6
+
+collimators:
+  b1:
+    tcp.6l3.b1:         { <<: *TCP3,   angle:   0     }
+    tcsg.5l3.b1:        { <<: *TCSG3,  angle:   0     }
+    tcsg.4r3.b1:        { <<: *TCSG3,  angle:   0     }
+    tctph.4l5.b1:       { <<: *TCT15,  angle:   0     }
+    tctpv.4l5.b1:       { <<: *TCT15,  angle:  90     }
+    tcp.d6l7.b1:        { <<: *TCP7,   angle:  90,    material: MoGR  }
+    tcp.c6l7.b1:        { <<: *TCP7,   angle:   0,    material: MoGR  }
+    tcsg.b5l7.b1:       { <<: *TCSG7,  angle: 143.5   }
+    tcspm.b4l7.b1:      { <<: *TCSG7,  angle:   0,    material: MoGR  }
+    tctph.4l1.b1:       { <<: *TCT15,  angle:   0     }
+    tctpv.4l1.b1:       { <<: *TCT15,  angle:  90     }
+
+  b2:
+    tcp.d6r7.b2:        { <<: *TCP7,   angle:  90,    material: MoGR  }
+    tcp.c6r7.b2:        { <<: *TCP7,   angle:   0,    material: MoGR  }
+    tcsg.b5r7.b2:       { <<: *TCSG7,  angle: 143.5   }
+    tcspm.b4r7.b2:      { <<: *TCSG7,  angle:   0,    material: MoGR  }
+    tctph.4r5.b2:       { <<: *TCT15,  angle:   0     }
+    tctpv.4r5.b2:       { <<: *TCT15,  angle:  90     }
+    tcp.6r3.b2:         { <<: *TCP3,   angle:   0     }
+    tcsg.5r3.b2:        { <<: *TCSG3,  angle:   0     }
+    tcsg.4l3.b2:        { <<: *TCSG3,  angle:   0     }
+    tctph.4r1.b2:       { <<: *TCT15,  angle:   0     }
+    tctpv.4r1.b2:       { <<: *TCT15,  angle:  90     }
+

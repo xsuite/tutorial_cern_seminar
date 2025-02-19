@@ -69,7 +69,7 @@ short_straight = env.new_line(length=1., components=[
 
 # Ring
 ring = 2 * (long_straight
-             + arc
+              + arc
              + short_straight
              - arc # mirror symmetric lattice
             )
