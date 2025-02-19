@@ -1,5 +1,4 @@
 import xtrack as xt
-
 env = xt.get_environment()
 
 # Quadrupole circuits
