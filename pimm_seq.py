@@ -1,7 +1,7 @@
 import xtrack as xt
 import numpy as np
 
-env = xt.Environment()
+env = xt.get_environment()
 env.particle_ref = xt.Particles(kinetic_energy0=200e6)
 env.vars.default_to_zero = True
 
@@ -88,5 +88,8 @@ ring.insert([
 
 # Insert RF
 ring.insert('rf1', at=0.5, from_='qfa.3@start')
+
+# Select lines to keep
+env['ring'] = ring
 
 env.vars.default_to_zero = False
