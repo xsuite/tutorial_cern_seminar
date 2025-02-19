@@ -13,7 +13,7 @@ se1: sextupole, l=0.2, k2:=kse;
 
 cav: rfcavity, volt:=vrf, freq:=frf, lag=0;
 
-pimms:sequence,refer=centre,l=75.24;
+ring:sequence,refer=centre,l=75.24;
               extr_septum: marker, at=0.0;
               qfa.1: qfa, at=2.3875;
               mb, at=3.8125;
