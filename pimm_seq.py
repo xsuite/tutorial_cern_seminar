@@ -16,7 +16,7 @@ env['l_mb'] = 1.65
 env['l_mq'] = 0.35
 
 # Magnet types
-env.new('mb', xt.RBend,      length='l_mb', angle='ang_mb', k0_from_h=True)
+env.new('mb', xt.RBend, length_straight='l_mb', angle='ang_mb')
 env.new('mq', xt.Quadrupole, length='l_mq')
 env.new('ms', xt.Sextupole, length=0.2)
 
