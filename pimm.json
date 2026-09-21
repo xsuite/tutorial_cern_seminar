@@ -1,0 +1,1580 @@
+{
+ "__class__": "Environment",
+ "_var_management_data": {
+  "functions": {
+   "_funcs": {}
+  },
+  "var_values": {
+   "__vary_default": {},
+   "ang_mb": 0.39269908169872414,
+   "frf": 0.0,
+   "kqd": 0.0,
+   "kqfa": 0.0,
+   "kqfb": 0.0,
+   "ksd": 0.0,
+   "kse": 0.0,
+   "ksf": 0.0,
+   "l_mb": 1.65,
+   "l_mq": 0.35,
+   "t_turn_s": 0.0,
+   "vrf": 0.0
+  }
+ },
+ "_var_manager": [
+  [
+   "element_refs['mb'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mq'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfa'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfa'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['qfb'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfb'].k1",
+   "vars['kqfb']"
+  ],
+  [
+   "element_refs['qd'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qd'].k1",
+   "vars['kqd']"
+  ],
+  [
+   "element_refs['qfal'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfal'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['qfar'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfar'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['mb.0'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.0'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.1'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.1'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.2'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.2'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.3'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.3'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.4'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.4'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.5'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.5'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.6'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.6'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.7'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.7'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.8'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.8'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.9'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.9'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.10'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.10'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.11'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.11'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.12'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.12'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.13'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.13'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.14'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.14'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['mb.15'].length_straight",
+   "vars['l_mb']"
+  ],
+  [
+   "element_refs['mb.15'].angle",
+   "vars['ang_mb']"
+  ],
+  [
+   "element_refs['qd.0'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qd.0'].k1",
+   "vars['kqd']"
+  ],
+  [
+   "element_refs['qd.1'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qd.1'].k1",
+   "vars['kqd']"
+  ],
+  [
+   "element_refs['qd.2'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qd.2'].k1",
+   "vars['kqd']"
+  ],
+  [
+   "element_refs['qd.3'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qd.3'].k1",
+   "vars['kqd']"
+  ],
+  [
+   "element_refs['qd.4'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qd.4'].k1",
+   "vars['kqd']"
+  ],
+  [
+   "element_refs['qd.5'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qd.5'].k1",
+   "vars['kqd']"
+  ],
+  [
+   "element_refs['qd.6'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qd.6'].k1",
+   "vars['kqd']"
+  ],
+  [
+   "element_refs['qd.7'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qd.7'].k1",
+   "vars['kqd']"
+  ],
+  [
+   "element_refs['qfar.0'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfar.0'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['qfar.1'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfar.1'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['qfar.2'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfar.2'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['qfar.3'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfar.3'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['qfal.0'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfal.0'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['qfal.1'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfal.1'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['qfal.2'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfal.2'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['qfal.3'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfal.3'].k1",
+   "vars['kqfa']"
+  ],
+  [
+   "element_refs['qfb.0'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfb.0'].k1",
+   "vars['kqfb']"
+  ],
+  [
+   "element_refs['qfb.1'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfb.1'].k1",
+   "vars['kqfb']"
+  ],
+  [
+   "element_refs['qfb.2'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfb.2'].k1",
+   "vars['kqfb']"
+  ],
+  [
+   "element_refs['qfb.3'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfb.3'].k1",
+   "vars['kqfb']"
+  ],
+  [
+   "element_refs['qfb.4'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfb.4'].k1",
+   "vars['kqfb']"
+  ],
+  [
+   "element_refs['qfb.5'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfb.5'].k1",
+   "vars['kqfb']"
+  ],
+  [
+   "element_refs['qfb.6'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfb.6'].k1",
+   "vars['kqfb']"
+  ],
+  [
+   "element_refs['qfb.7'].length",
+   "vars['l_mq']"
+  ],
+  [
+   "element_refs['qfb.7'].k1",
+   "vars['kqfb']"
+  ],
+  [
+   "element_refs['msf.1'].k2",
+   "vars['ksf']"
+  ],
+  [
+   "element_refs['msf.2'].k2",
+   "vars['ksf']"
+  ],
+  [
+   "element_refs['msd.1'].k2",
+   "vars['ksd']"
+  ],
+  [
+   "element_refs['msd.2'].k2",
+   "vars['ksd']"
+  ],
+  [
+   "element_refs['mse'].k2",
+   "vars['kse']"
+  ],
+  [
+   "element_refs['rf1'].voltage",
+   "vars['vrf']"
+  ],
+  [
+   "element_refs['rf1'].frequency",
+   "vars['frf']"
+  ]
+ ],
+ "elements": {
+  "mb": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "rbend_model": "adaptive"
+  },
+  "mb.0": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.1": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.10": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.11": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.12": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.13": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.14": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.15": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.2": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.3": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.4": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.5": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.6": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.7": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.8": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mb.9": {
+   "__class__": "RBend",
+   "angle": 0.39269908169872414,
+   "k1": 0.0,
+   "k2": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 1.6606499956192804,
+   "length_straight": 1.65,
+   "order": 5,
+   "prototype": "mb",
+   "rbend_model": "adaptive"
+  },
+  "mid.lss": {
+   "__class__": "Marker"
+  },
+  "mid.lss.0": {
+   "__class__": "Marker",
+   "prototype": "mid.lss"
+  },
+  "mid.lss.1": {
+   "__class__": "Marker",
+   "prototype": "mid.lss"
+  },
+  "mid.sss": {
+   "__class__": "Marker"
+  },
+  "mid.sss.0": {
+   "__class__": "Marker",
+   "prototype": "mid.sss"
+  },
+  "mid.sss.1": {
+   "__class__": "Marker",
+   "prototype": "mid.sss"
+  },
+  "mq": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5
+  },
+  "ms": {
+   "__class__": "Sextupole",
+   "k2": 0.0,
+   "k2s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.2,
+   "order": 5
+  },
+  "msd.1": {
+   "__class__": "Sextupole",
+   "k2": 0.0,
+   "k2s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.2,
+   "order": 5,
+   "prototype": "ms"
+  },
+  "msd.2": {
+   "__class__": "Sextupole",
+   "k2": 0.0,
+   "k2s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.2,
+   "order": 5,
+   "prototype": "ms"
+  },
+  "mse": {
+   "__class__": "Sextupole",
+   "k2": 0.0,
+   "k2s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.2,
+   "order": 5,
+   "prototype": "ms"
+  },
+  "msf.1": {
+   "__class__": "Sextupole",
+   "k2": 0.0,
+   "k2s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.2,
+   "order": 5,
+   "prototype": "ms"
+  },
+  "msf.2": {
+   "__class__": "Sextupole",
+   "k2": 0.0,
+   "k2s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.2,
+   "order": 5,
+   "prototype": "ms"
+  },
+  "qd": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "mq"
+  },
+  "qd.0": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qd"
+  },
+  "qd.1": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qd"
+  },
+  "qd.2": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qd"
+  },
+  "qd.3": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qd"
+  },
+  "qd.4": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qd"
+  },
+  "qd.5": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qd"
+  },
+  "qd.6": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qd"
+  },
+  "qd.7": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qd"
+  },
+  "qfa": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "mq"
+  },
+  "qfal": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfa"
+  },
+  "qfal.0": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfal"
+  },
+  "qfal.1": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfal"
+  },
+  "qfal.2": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfal"
+  },
+  "qfal.3": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfal"
+  },
+  "qfar": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfa"
+  },
+  "qfar.0": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfar"
+  },
+  "qfar.1": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfar"
+  },
+  "qfar.2": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfar"
+  },
+  "qfar.3": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfar"
+  },
+  "qfb": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "mq"
+  },
+  "qfb.0": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfb"
+  },
+  "qfb.1": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfb"
+  },
+  "qfb.2": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfb"
+  },
+  "qfb.3": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfb"
+  },
+  "qfb.4": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfb"
+  },
+  "qfb.5": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfb"
+  },
+  "qfb.6": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfb"
+  },
+  "qfb.7": {
+   "__class__": "Quadrupole",
+   "k1": 0.0,
+   "k1s": 0.0,
+   "knl_rel": [
+    0.0
+   ],
+   "ksl_rel": [
+    0.0
+   ],
+   "length": 0.35,
+   "order": 5,
+   "prototype": "qfb"
+  },
+  "rf1": {
+   "__class__": "Cavity"
+  },
+  "||drift_1": {
+   "__class__": "Drift",
+   "length": 0.21250000000000002
+  },
+  "||drift_10": {
+   "__class__": "Drift",
+   "length": 0.6496750021903592
+  },
+  "||drift_11": {
+   "__class__": "Drift",
+   "length": 0.274675002190361
+  },
+  "||drift_12": {
+   "__class__": "Drift",
+   "length": 0.4374999999999991
+  },
+  "||drift_13": {
+   "__class__": "Drift",
+   "length": 1.0
+  },
+  "||drift_14": {
+   "__class__": "Drift",
+   "length": 0.7974999999999994
+  },
+  "||drift_15": {
+   "__class__": "Drift",
+   "length": 0.20000000000000284
+  },
+  "||drift_16": {
+   "__class__": "Drift",
+   "length": 0.09999999999999787
+  },
+  "||drift_17": {
+   "__class__": "Drift",
+   "length": 0.1999999999999993
+  },
+  "||drift_18": {
+   "__class__": "Drift",
+   "length": 0.7246750021903576
+  },
+  "||drift_19": {
+   "__class__": "Drift",
+   "length": 0.8125
+  },
+  "||drift_2": {
+   "__class__": "Drift",
+   "length": 0.4196750021903597
+  },
+  "||drift_20": {
+   "__class__": "Drift",
+   "length": 0.1875
+  },
+  "||drift_21": {
+   "__class__": "Drift",
+   "length": 0.012500000000002842
+  },
+  "||drift_22": {
+   "__class__": "Drift",
+   "length": 0.19999999999999718
+  },
+  "||drift_23": {
+   "__class__": "Drift",
+   "length": 0.19999999999999576
+  },
+  "||drift_24": {
+   "__class__": "Drift",
+   "length": 0.7246750021903612
+  },
+  "||drift_25": {
+   "__class__": "Drift",
+   "length": 0.15000000000000568
+  },
+  "||drift_26": {
+   "__class__": "Drift",
+   "length": 0.06249999999999434
+  },
+  "||drift_3": {
+   "__class__": "Drift",
+   "length": 0.47467500219035985
+  },
+  "||drift_4": {
+   "__class__": "Drift",
+   "length": 0.7496750021903598
+  },
+  "||drift_5": {
+   "__class__": "Drift",
+   "length": 0.27467500219035923
+  },
+  "||drift_6": {
+   "__class__": "Drift",
+   "length": 0.9025000000000007
+  },
+  "||drift_7": {
+   "__class__": "Drift",
+   "length": 1.0975000000000001
+  },
+  "||drift_8": {
+   "__class__": "Drift",
+   "length": 0.4496750021903597
+  },
+  "||drift_9": {
+   "__class__": "Drift",
+   "length": 1.1246750021903598
+  }
+ },
+ "lines": {
+  "cell_a": {
+   "__class__": "Line",
+   "_extra_config": {
+    "_beamstrahlung_model": null,
+    "_bhabha_model": null,
+    "_needs_rng": false,
+    "_radiation_model": null,
+    "_spin_model": null,
+    "_t_last_update_time_dependent_vars": null,
+    "corrector_limits_x": null,
+    "corrector_limits_y": null,
+    "dt_update_time_dependent_vars": 0.0,
+    "enable_time_dependent_vars": false,
+    "end_compose_on_reload": true,
+    "matrix_responsiveness_tol": 1e-15,
+    "matrix_stability_tol": 0.002,
+    "reset_s_at_end_turn": true,
+    "skip_end_turn_actions": false,
+    "steering_correctors_x": null,
+    "steering_correctors_y": null,
+    "steering_monitors_x": null,
+    "steering_monitors_y": null,
+    "twiss_default": {}
+   },
+   "composer": {
+    "__class__": "Composer",
+    "components": [
+     {
+      "at": 0.3875,
+      "name": "qfal"
+     },
+     {
+      "at": 3.2925,
+      "name": "qd"
+     },
+     {
+      "at": 6.3275,
+      "name": "qfar"
+     },
+     {
+      "at": 1.425,
+      "from_": "qfal",
+      "from_anchor": "center",
+      "name": "mb"
+     },
+     {
+      "at": 5.0475,
+      "name": "mb"
+     }
+    ],
+    "l": 7.405,
+    "refer": "center",
+    "s_tol": 1e-06
+   },
+   "config": {
+    "XFIELDS_BB3D_NO_BEAMSTR": true,
+    "XFIELDS_BB3D_NO_BHABHA": true,
+    "XTRACK_GLOBAL_XY_LIMIT": 1.0,
+    "XTRACK_MULTIPOLE_NO_SYNRAD": true
+   },
+   "element_names": [
+    "||drift_1",
+    "qfal",
+    "||drift_2",
+    "mb",
+    "||drift_3",
+    "qd",
+    "||drift_4",
+    "mb",
+    "||drift_5",
+    "qfar",
+    "||drift_6"
+   ],
+   "env_particles": {},
+   "metadata": {},
+   "mode": "normal"
+  },
+  "ring": {
+   "__class__": "Line",
+   "_extra_config": {
+    "_beamstrahlung_model": null,
+    "_bhabha_model": null,
+    "_needs_rng": false,
+    "_radiation_model": null,
+    "_spin_model": null,
+    "_t_last_update_time_dependent_vars": null,
+    "corrector_limits_x": null,
+    "corrector_limits_y": null,
+    "dt_update_time_dependent_vars": 0.0,
+    "enable_time_dependent_vars": false,
+    "end_compose_on_reload": true,
+    "matrix_responsiveness_tol": 1e-15,
+    "matrix_stability_tol": 0.002,
+    "reset_s_at_end_turn": true,
+    "skip_end_turn_actions": false,
+    "steering_correctors_x": null,
+    "steering_correctors_y": null,
+    "steering_monitors_x": null,
+    "steering_monitors_y": null,
+    "twiss_default": {}
+   },
+   "composer": {
+    "__class__": "Composer",
+    "components": [],
+    "refer": "center",
+    "s_tol": 1e-06
+   },
+   "config": {
+    "XFIELDS_BB3D_NO_BEAMSTR": true,
+    "XFIELDS_BB3D_NO_BHABHA": true,
+    "XTRACK_GLOBAL_XY_LIMIT": 1.0,
+    "XTRACK_MULTIPOLE_NO_SYNRAD": true
+   },
+   "element_names": [
+    "||drift_13",
+    "mid.lss.0",
+    "||drift_13",
+    "||drift_1",
+    "qfal.0",
+    "||drift_2",
+    "mb.0",
+    "||drift_3",
+    "qd.0",
+    "||drift_4",
+    "mb.1",
+    "||drift_5",
+    "qfar.0",
+    "||drift_6",
+    "||drift_14",
+    "msf.1",
+    "||drift_16",
+    "qfb.0",
+    "||drift_8",
+    "mb.2",
+    "||drift_9",
+    "qd.1",
+    "||drift_10",
+    "mb.3",
+    "||drift_11",
+    "qfb.1",
+    "||drift_12",
+    "||drift_13",
+    "mid.sss.0",
+    "||drift_12",
+    "qfb.2",
+    "||drift_11",
+    "mb.4",
+    "||drift_10",
+    "qd.2",
+    "||drift_17",
+    "msd.1",
+    "||drift_18",
+    "mb.5",
+    "||drift_8",
+    "qfb.3",
+    "||drift_7",
+    "||drift_6",
+    "qfar.1",
+    "||drift_5",
+    "mb.6",
+    "||drift_4",
+    "qd.3",
+    "||drift_3",
+    "mb.7",
+    "||drift_2",
+    "qfal.1",
+    "||drift_1",
+    "||drift_13",
+    "mid.lss.1",
+    "||drift_19",
+    "mse",
+    "||drift_22",
+    "qfal.2",
+    "||drift_2",
+    "mb.8",
+    "||drift_3",
+    "qd.4",
+    "||drift_4",
+    "mb.9",
+    "||drift_5",
+    "qfar.2",
+    "||drift_6",
+    "||drift_14",
+    "msf.2",
+    "||drift_16",
+    "qfb.4",
+    "||drift_8",
+    "mb.10",
+    "||drift_9",
+    "qd.5",
+    "||drift_10",
+    "mb.11",
+    "||drift_11",
+    "qfb.5",
+    "||drift_12",
+    "||drift_13",
+    "mid.sss.1",
+    "||drift_12",
+    "qfb.6",
+    "||drift_11",
+    "mb.12",
+    "||drift_10",
+    "qd.6",
+    "||drift_23",
+    "msd.2",
+    "||drift_24",
+    "mb.13",
+    "||drift_8",
+    "qfb.7",
+    "||drift_7",
+    "||drift_6",
+    "qfar.3",
+    "||drift_5",
+    "mb.14",
+    "||drift_4",
+    "qd.7",
+    "||drift_3",
+    "mb.15",
+    "||drift_2",
+    "qfal.3",
+    "||drift_25",
+    "rf1",
+    "||drift_26"
+   ],
+   "env_particles": {},
+   "metadata": {},
+   "mode": "normal"
+  }
+ },
+ "metadata": {},
+ "particles": {},
+ "xsuite_data_type": "Environment",
+ "xtrack_version": "0.114.1"
+}
