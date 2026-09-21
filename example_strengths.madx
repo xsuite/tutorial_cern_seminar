@@ -1,0 +1,11 @@
+! Quadrupoles
+kqd = -0.5904781382942978;
+kqfa = 0.3377330649315182;
+kqfb = 0.546941967560322;
+
+! Sextupoles
+ksd = -0.7807717051055789;
+ksf = 0.5835018163902821;
+
+! A knob (deferred expression)
+myvar := 2 * kqfa;
